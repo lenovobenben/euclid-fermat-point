@@ -183,12 +183,16 @@ class FermatPoint(Scene):
     def rotation_proof(self):
         points = self.points
         view = View((2, 0), (-2.7, 0), 0.78)
-        self.stage("旋转 60°", "将 Q 绕 A 旋转 60° 得 Q′，B 同时转到 D")
+        self.stage("旋转 60°", "将 BQ 绕 A 顺时针旋转 60° 得 DQ′")
         self.formula(["QQ′ = QA", "Q′D = QB"], AUXILIARY)
         self.play(FadeIn(self.triangle(view, ("D",))), run_time=0.5)
         q = self.point(points["Q"], "Q", view, CURRENT)
         self.play(FadeIn(q), run_time=0.35)
-        moving = Dot(view.at(points["Q"]), radius=0.043, color=CURRENT)
+        moving = VGroup(
+            self.segment(points["B"], points["Q"], view, CURRENT, 2.6),
+            Dot(view.at(points["B"]), radius=0.043, color=CURRENT).set_z_index(5),
+            Dot(view.at(points["Q"]), radius=0.043, color=CURRENT).set_z_index(5),
+        )
         self.add(moving)
         self.play(Rotate(moving, angle=-np.pi / 3, about_point=view.at(points["A"])), run_time=1.3)
         self.remove(moving)
