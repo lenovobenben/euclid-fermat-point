@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+animations/fermat/media/Tex/
+animations/fermat/media/texts/
+animations/fermat/media/images/
+animations/fermat/media/videos/
+animations/fermat/render-*.log
+animations/fermat/media/*-check.png
+/media/

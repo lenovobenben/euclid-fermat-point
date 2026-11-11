@@ -1,0 +1,116 @@
+{
+  "sage_version": "10.7",
+  "arithmetic": "SageMath AA, exact comparisons before display conversion",
+  "source_sha256": "1e09a3c384a63ad0cd940dc681d8bf0130fca6e00d11b58f9e819f41ba3060b5",
+  "verified": {
+    "construction_and_angles": true,
+    "strict_interior": true,
+    "rotation_lengths": true,
+    "equality_order": true,
+    "boundary_and_large_angles": true
+  },
+  "checked_replays": 28,
+  "checked_examples": [
+    "main",
+    "equilateral",
+    "isosceles",
+    "right",
+    "obtuse_below_120",
+    "boundary",
+    "large",
+    "near_below",
+    "near_above"
+  ],
+  "points": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      4.0,
+      0.0
+    ],
+    "C": [
+      1.0,
+      3.0
+    ],
+    "D": [
+      2.0,
+      -3.4641016151377544
+    ],
+    "E": [
+      5.098076211353316,
+      4.098076211353316
+    ],
+    "P": [
+      1.3021694792519622,
+      1.0467457811220569
+    ],
+    "Pprime": [
+      1.5575931773818676,
+      -0.6043389585039245
+    ],
+    "Q": [
+      2.8,
+      1.6
+    ],
+    "Qprime": [
+      2.7856406460551018,
+      -1.624871130596428
+    ],
+    "T": [
+      1.2649110640673515,
+      3.794733192202055
+    ],
+    "H": [
+      -2.0,
+      3.4641016151377544
+    ],
+    "K": [
+      2.0,
+      -3.4641016151377544
+    ],
+    "Dother": [
+      2.0,
+      3.4641016151377544
+    ],
+    "Eother": [
+      -0.09807621135331593,
+      -1.098076211353316
+    ]
+  },
+  "angles": [
+    -1,
+    -1,
+    -1
+  ],
+  "boundary": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      3.0,
+      0.0
+    ],
+    "C": [
+      -1.0,
+      1.7320508075688772
+    ]
+  },
+  "large": {
+    "A": [
+      0.0,
+      0.0
+    ],
+    "B": [
+      3.0,
+      0.0
+    ],
+    "C": [
+      -1.7320508075688772,
+      1.0
+    ]
+  },
+  "minimum": 6.540994549059533
+}
