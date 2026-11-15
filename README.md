@@ -66,3 +66,9 @@ $$QA+QB+QC=QQ'+Q'D+CQ\ge CD.$$
 **Euclid 几何研究系列**
 
 [Euclid-Min](https://github.com/lenovobenben/euclid-min) · [Euclid-CCC-Min](https://github.com/lenovobenben/euclid-ccc-min) · [Euclid-Equal-Angle-Min](https://github.com/lenovobenben/euclid-equal-angle-min) · [Euclid-Castillon-Min](https://github.com/lenovobenben/euclid-castillon-min) · [Euclid-Conic-Classification](https://github.com/lenovobenben/euclid-conic-classification) · [Euclid-Cubic-Trisection](https://github.com/lenovobenben/euclid-cubic-trisection) · [Euclid-Square-Reconstruction](https://github.com/lenovobenben/euclid-square-reconstruction) · **Euclid-Fermat-Point** · [Euclid-Quadrilateral-Centroid](https://github.com/lenovobenben/euclid-quadrilateral-centroid) · [Euclid-Quadrature](https://github.com/lenovobenben/euclid-quadrature)
+
+## 许可与引用
+
+代码、测试、核验程序、构建脚本和配置采用 [Apache 2.0](LICENSE)。原创文档、数学证明、构造记录、研究数据、图片和动画采用 [CC BY 4.0](LICENSE-CONTENT)。具体范围及来源材料说明见 [许可范围](LICENSE-SCOPE.md)。
+
+引用本项目时，请注明 **lenovobenben，Euclid-Fermat-Point**、[仓库地址](https://github.com/lenovobenben/euclid-fermat-point)及所用提交或版本。转载或改编非软件内容时，请按 CC BY 4.0 署名并注明修改。
